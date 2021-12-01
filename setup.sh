@@ -98,7 +98,7 @@ clear
 #Script starts
 #cd $HOME
 #cd termuxstyling
-echo Script made by:- Dark Warrior
+echo Script made by:- Mr Anonymous
 #Uninstall
 if [ -e ".user.cfg" ]
 then
@@ -265,7 +265,7 @@ updatedw() {
 prm() { chmod +x *.\$1; }
 txt() { cat \$1.*; }
 figlet $uname
-PS1='\033[1;91mroot@termux[\033[1;93m\W\033[1;91m]:
+PS1='\033[1;91Mr@Anonymous[\033[1;93m\W\033[1;91m]:
 # \033[1;92m'
 if [ -d \"\$HOME/termuxstyling\" ]
 then
